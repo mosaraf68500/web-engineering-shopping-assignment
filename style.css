@@ -11,6 +11,7 @@ body {
 header {
   background-color: #333;
   color: white;
+ 
 }
 
 /* top header style end */
@@ -46,11 +47,15 @@ header {
 
 
 /* <!-- navigation style start --> */
+.navbar{
+  position: sticky;
+    top: 0;
+
+}
 
 nav {
   background-color: #555;
-  position: sticky;
-    top: 0;
+  
 }
 
 nav ul {
@@ -85,7 +90,7 @@ nav ul li a:hover {
 /* hero section style start */
 
 .hero {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.822);
   color: white;
   text-align: center;
   padding: 100px 0;
@@ -169,9 +174,10 @@ nav ul li a:hover {
 }
 .featured-products {
   text-align: center;
-  padding: 120px;
+  padding: 40px;
    width: 100%;
    margin: 0 auto;
+   padding-left:120px ;
 }
 .feature-title{
   color: rgb(72, 72, 72);
